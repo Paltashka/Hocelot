@@ -1,0 +1,115 @@
+.projectstable {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  min-width: 1000px;
+
+  th {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 190%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:first-of-type {
+      padding-left: 50px;
+    }
+  }
+
+  td {
+
+    &:first-of-type {
+      padding-left: 50px;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  
+  tr {
+    height: 77px;
+  }
+
+  &__th {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  svg {
+    cursor: pointer;
+
+    &:first-of-type {
+      margin-bottom: 2px;
+    }
+    
+    &.active {
+      path {
+        fill: url(#linear-gradient);
+        opacity: 1;
+      }
+    }
+  }
+
+  &__dropdown-image {
+    width: 75px;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  &__bodyrow {
+    background: #3321282D;
+    mix-blend-mode: multiply;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 190%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    td {
+      background: linear-gradient(173.32deg, #FDD226 0%, #FF5753 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__dropdown {
+    display: none;
+    transition: display 1s ease-in;
+    
+    &.active {
+      display: table-row;
+      background: #1A21282D;
+      border-bottom: 1px solid #E0E0E01A;
+
+
+      td {
+        font-size: 13px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 148.5%;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        background: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E0E0E01A;
+    
+}
+.nav-item{
+    width: 152px;
+    text-align: center;
+
+}
+.nav-item{
+    border-bottom: 3px solid transparent;
+    &:hover{
+        border-bottom: 3px solid orange;
+        width: 152px;
+        text-align: center;
+        background: linear-gradient(173.32deg, #FDD226 0%, #FF5753 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+}
+
+.navbar ul li{
+    list-style-type: none;
+   
+}
+
+a.nav-link {
+    color: grey;
+    text-transform: uppercase;
+ 
+}

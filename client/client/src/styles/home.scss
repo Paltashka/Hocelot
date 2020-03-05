@@ -1,0 +1,33 @@
+.home {
+
+  &__subheading {
+    font-family: Crimson Text;
+    font-size: 27px;
+    line-height: 140.62%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-top: 0;
+  }
+
+  &__middle {
+    display: flex;
+    max-width: 85%;
+
+    @media screen and (max-width: 940px) {
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+
+    @media screen and (max-width: 570px) {
+      justify-content: center;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+
+    @media screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
+  }
+}
