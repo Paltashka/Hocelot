@@ -10,6 +10,9 @@ import DragDrop from './pages/DragDrop'
 import Upload from './pages/Upload'
 import Done from './pages/Done'
 import Quality from './pages/Quality'
+import Enrichment from './pages/Enrichment';
+import Model from './pages/Model';
+import Simulation from './pages/Simulation';
 
 export const useRoutes = isAuthenticated => {
   if (isAuthenticated) {
@@ -39,6 +42,17 @@ export const useRoutes = isAuthenticated => {
           <Done />
         </Route>
 
+        <Route path="/enrichment" exact>
+          <Enrichment />
+        </Route>
+
+        <Route path="/model" exact>
+          <Model />
+        </Route>
+        
+        <Route path="/simulation" exact>
+          <Simulation />
+        </Route>
         <Route path="/admin" exact>
         </Route>
         <Route path="/billing" exact>

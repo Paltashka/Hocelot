@@ -1,0 +1,227 @@
+.enrichment {
+  background: linear-gradient(119.36deg, #2F3942 0%, #192431 100%);
+  padding-bottom: 20px;
+  
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 25px;
+  }
+
+  &__data-quality {
+    width: 464px;
+    height: 424px;
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    overflow: auto;
+
+    @media screen and (max-width: 900px) {
+      margin-right: 0;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0;
+  }
+
+  &__icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  &__radar {
+    margin: auto;
+    width: max-content;
+
+    svg {
+      width: 350px;
+    }
+
+    .scale {  
+      fill: transparent;
+    }
+
+    .caption {
+      font-family: Montserrat;
+      font-size: 8px;
+      line-height: 190%;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      opacity: 0.2;
+      text-shadow: -6px 9px 0 #fff;
+    }
+
+    .dot {
+      fill: #FF7349;
+      stroke: transparent;
+    }
+  }
+
+  &__bottom {
+    margin: 10px auto 0;
+    width: max-content;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 148.5%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF4d;
+  }
+
+  &__density {
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    flex-grow: 1;
+    overflow: auto;
+
+    @media screen and (max-width: 900px) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .apexcharts-toolbar {
+    display: none;
+  }
+
+  &__area {
+    margin: auto;
+    width: max-content;
+
+    text {
+      fill: #FFFFFF33;
+    }
+  }
+
+  &__map {
+    width: 561px;
+    height: 572px;
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 900px) {
+      margin-right: 0;
+    }
+  }
+
+  &__spain {
+    width: max-content;
+    margin: auto;
+    margin-top: 40px;
+
+    path {
+      fill: red;
+
+      &:hover {
+        fill: black;
+      }
+    }
+  }
+
+  &__distribution {
+    max-height: 465px;
+    min-width: 650px;
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    flex-grow: 1;
+    overflow: auto;
+    margin-bottom: 20px;
+
+    &-wrapper {
+      overflow: auto;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__histogram {
+    max-width: 1040px;
+    height: 424px;
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+
+    @media screen and (max-width: 900px) {
+      margin-right: 0;
+    }
+  }
+
+  &__matrix {
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    overflow: auto;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+
+  &__heatmap {
+    max-width: max-content;
+    margin: auto;
+  }
+
+  &__grouped {
+    display: flex;
+    align-items: center;
+  }
+
+  &__plot {
+    height: 424px;
+    display: flex;
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    overflow: auto;
+    margin-right: 20px;
+
+    @media screen and (max-width: 900px) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__simulation {
+    height: 424px;
+    align-self: flex-start;
+    border: 1px solid #FFFFFF1a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 30px 15px 20px;
+    overflow: auto;
+  }
+}

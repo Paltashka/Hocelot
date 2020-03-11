@@ -23,7 +23,8 @@
     "react-input-switch": "^2.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "react-svg": "^11.0.10"
+    "react-svg": "^11.0.10",
+    "react-svg-radar-chart": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
