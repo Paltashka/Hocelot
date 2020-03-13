@@ -1,6 +1,7 @@
 import React from 'react';
 import ContentTop from '../components/ContentTop';
 import Navbar from '../components/Navbar';
+import PreHeader from '../components/PreHeader';
 
 const Simulation = () => {
   return (
@@ -25,7 +26,7 @@ const Simulation = () => {
             </button>
           </div>
         </div>
-
+        <PreHeader />
         <div className="simulation__container">
           <div className="simulation__box">
               <div className="enrichment__header" style={{ justifyContent: 'space-between' }}>

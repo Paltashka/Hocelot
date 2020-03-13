@@ -5,6 +5,7 @@ import Density from '../components/Density';
 import Histogram from '../components/Histogram';
 import Matrix from '../components/Matrix';
 import Plot from '../components/Plot';
+import PreHeader from '../components/PreHeader';
 
 const Model = () => {
   const series1 = [{
@@ -42,7 +43,7 @@ const Model = () => {
             </button>
           </div>
         </div>
-
+        <PreHeader />
         <div className="enrichment__container">
           <div className="enrichment__density" style={{ marginRight: '20px'}}>
             <div className="enrichment__header">

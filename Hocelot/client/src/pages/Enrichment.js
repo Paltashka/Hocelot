@@ -6,6 +6,7 @@ import Density from '../components/Density';
 import Map from '../components/Map';
 import FamilyDistribution from '../components/FamilyDistribution';
 import GroupedBars from '../components/GroupedBars';
+import PreHeader from '../components/PreHeader';
 
 const Enrichment = () => {
   const series = [{
@@ -38,7 +39,7 @@ const Enrichment = () => {
             </button>
           </div>
         </div>
-
+        <PreHeader />
         <div className="enrichment__container">
           <div className="enrichment__data-quality">
             <div className="enrichment__header">

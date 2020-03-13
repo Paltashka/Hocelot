@@ -2,6 +2,7 @@ import React from 'react';
 import ContentTop from '../components/ContentTop';
 import NewProjectTable from '../components/NewProjectTable'
 import Navbar from '../components/Navbar'
+import PreHeader from '../components/PreHeader';
 import {NavLink} from 'react-router-dom'
 
 const newProject = () => {
@@ -10,9 +11,8 @@ const newProject = () => {
 <div className="content">
       <ContentTop layout={<h1 className="content__heading">Project number 1</h1>}/>
       <Navbar />
+      <PreHeader />
       <div className="projects newproject">
-      
-
         <div className="projects__helpers">
           <div style={{ display: 'flex', alignItems: 'center' }}>
             

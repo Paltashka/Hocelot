@@ -3,6 +3,7 @@ import ContentTop from "../components/ContentTop";
 import Navbar from "../components/Navbar";
 import Vector32 from "../images/Vector32.png";
 import HorizontalCharts from "./HorizontalCharts";
+import PreHeader from '../components/PreHeader';
 
 const Quality = () => {
   return (
@@ -11,7 +12,7 @@ const Quality = () => {
         layout={<h1 className="content__heading">Project number 1</h1>}
       />
       <Navbar />
-
+      
       <div className="select_dataset">
         <div className="header">
           <p>Select dataset:</p>
@@ -26,6 +27,8 @@ const Quality = () => {
           </button>
         </div>
       </div>
+      <PreHeader />
+
       <div className="table_blocks">
         <div className="records">
           <div className="tables">

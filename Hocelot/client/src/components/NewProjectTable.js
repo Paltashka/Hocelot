@@ -35,7 +35,7 @@ const ProjectsTable = () => {
 ];
 
   return (
-    <div style={{ paddingRight: '80px', boxSizing: 'border-box', overflow: 'auto' }}>
+    <div style={{ paddingRight: '80px', boxSizing: 'border-box', overflow: 'auto', background: 'linear-gradient(119.36deg, #2F3942 0%, #192431 100%)' }}>
       <table className="projectstable">
         <thead>
           <tr>
